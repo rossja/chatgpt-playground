@@ -1,0 +1,8 @@
+services:
+  runner:
+    image: gptrunner
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
