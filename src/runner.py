@@ -22,3 +22,5 @@ response = openai.Completion.create(
   frequency_penalty=1,
   presence_penalty=1
 )
+
+print(response)
