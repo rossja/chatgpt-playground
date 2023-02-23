@@ -12,8 +12,8 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # text-curie-001
 # text-davinci-003
 # =====================
-prompt = "complete this sentence: \"This is...\""
-#prompt = "brainstorm 5 slogans for an airport."
+# prompt = "complete this sentence: \"This is...\""
+prompt = "brainstorm 5 slogans for an airport."
 temperature = 0
 max_tokens = 150
 top_p = 1
